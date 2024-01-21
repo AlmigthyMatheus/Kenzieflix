@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 1px;
+}
+
+header > h1 {
+    padding: 60px;
+}
+
+.user-card {
+    color: gray;
+}
+
+.manage-profiles {
+    background-color: black;
+    color: white;
+    margin: auto;
+    height: 34px;
+    width: 150px;
+    padding: 6px 24px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.container {
+    width: 1000px;
+    padding: 0;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    height: 40vh;
+}
+
+.user-card > img {
+    height: 15vh;
+    border-radius: 5%;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.user-card > img:hover {
+    border: 1px solid white;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul > li {
+    text-align: center;
+}
+
+li:hover {
+    color: white;
+}
+
+.manage-profiles:hover{
+    color: black;
+    background-color: white;
+    transition: 0.3s;
+}
